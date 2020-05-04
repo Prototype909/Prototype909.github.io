@@ -1,11 +1,11 @@
 # Site settings
-author: Steve Anderson
-title: 
+author: Steven Anderson
+title: Why did I  decide to study Software Engineering?
 header-img: img/home-bg.png
 email: prototype909@msn.com
-copyright_name: Steve Anderson
+copyright_name: Steven Anderson
 description: > # this means to ignore newlines until "baseurl:"
-  
+  First blog
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Prototype909
