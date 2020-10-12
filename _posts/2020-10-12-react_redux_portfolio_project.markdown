@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React Redux Portfolio Project"
-date:       2020-10-12 21:45:46 +0000
+date:       2020-10-12 17:45:47 -0400
 permalink:  react_redux_portfolio_project
 ---
 
@@ -12,5 +12,11 @@ The project is a simple recipe book where someone can add a recipe title, a ingr
 
 The back end is simple, only one table that takes in a string of title, text and image link,. I only have one recipe model that validates the title, text and image link. A simple serializer for the same attributes as well as a recie controller that housed an index, create, and show method.
  
- The front end 
+ The front end features are a simple nav bar that links you to the home page, the recipe page, and the add a recipe page, to meet requirements of stateless components I added a simple organization function to sort the recipes by A to Z or Z to A.
+
+Everything is nicly organized thanks to React and Redux. there I a Recipe actions that houses my fetch and post request. a components folder that holds all my stateless functions. A recipe and create recipe container for my functions that require state changes. a reducer that takes previous state and an action, and returns the next state. And of course my app.js and index.js files. 
+
+There is some simple .css to make this simple application look nice. It was a fun project to build even if its a stipped down version of my first attempt. I look forward to finishing up the grandiose one and adding it to my portfolio. 
+
+Thanks for everything Flatiron, its been a fun journey!
 
